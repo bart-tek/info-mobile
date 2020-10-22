@@ -1,5 +1,8 @@
 Gradle/**
+01-mini-pwa/node_modules
 03-cordova/node_modules
 03-cordova/platforms
 03-cordova/plugins
 04-capacitor/node_modules
+04-capacitor/android
+04-capacitor/electron
