@@ -103,7 +103,7 @@ async function save() {
 async function addCard(title) {
 
     capacitorExports.Storage.get({'key':title}).then( (newCard) => {
-        
+
         var item = JSON.parse(newCard.value);
 
         var titre = item.titre;
