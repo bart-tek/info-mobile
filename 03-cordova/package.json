@@ -19,7 +19,8 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-device": {}
+      "cordova-plugin-device": {},
+      "cordova-plugin-network-information": {}
     },
     "platforms": [
       "browser",
@@ -28,6 +29,7 @@
   },
   "dependencies": {
     "cordova-browser": "6.0.0",
-    "cordova-plugin-device": "2.0.3"
+    "cordova-plugin-device": "2.0.3",
+    "cordova-plugin-network-information": "2.0.2"
   }
 }
