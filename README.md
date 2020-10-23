@@ -12,3 +12,4 @@ Une PWA qui récupère des données de https://devfest-nantes-2018-api.cleverapp
 Une démonstration rapide de Cordova et des plugins <code>cordova-plugin-device</code> et <code>cordova-plugin-network-information</code>.
 
 ## TP4
+Reprise de la PWA développée au TP2 avec l'ajout de capacitor pour accéder à la webcam du device.
