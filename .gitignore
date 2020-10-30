@@ -6,3 +6,46 @@ Gradle/**
 04-capacitor/node_modules
 04-capacitor/android
 04-capacitor/electron
+
+# Miscellaneous
+06_flutter_bonjour\bonjoour_flutter\*.class
+06_flutter_bonjour\bonjoour_flutter\*.log
+06_flutter_bonjour\bonjoour_flutter\*.pyc
+06_flutter_bonjour\bonjoour_flutter\*.swp
+06_flutter_bonjour\bonjoour_flutter\.DS_Store
+06_flutter_bonjour\bonjoour_flutter\.atom/
+06_flutter_bonjour\bonjoour_flutter\.buildlog/
+06_flutter_bonjour\bonjoour_flutter\.history
+06_flutter_bonjour\bonjoour_flutter\.svn/
+
+# IntelliJ related
+06_flutter_bonjour\bonjoour_flutter\*.iml
+06_flutter_bonjour\bonjoour_flutter\*.ipr
+06_flutter_bonjour\bonjoour_flutter\*.iws
+06_flutter_bonjour\bonjoour_flutter\.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+06_flutter_bonjour\bonjoour_flutter\**/doc/api/
+06_flutter_bonjour\bonjoour_flutter\**/ios/Flutter/.last_build_id
+06_flutter_bonjour\bonjoour_flutter\.dart_tool/
+06_flutter_bonjour\bonjoour_flutter\.flutter-plugins
+06_flutter_bonjour\bonjoour_flutter\.flutter-plugins-dependencies
+06_flutter_bonjour\bonjoour_flutter\.packages
+06_flutter_bonjour\bonjoour_flutter\.pub-cache/
+06_flutter_bonjour\bonjoour_flutter\.pub/
+06_flutter_bonjour\bonjoour_flutter\/build/
+
+# Web related
+06_flutter_bonjour\bonjoour_flutter\lib/generated_plugin_registrant.dart
+
+# Symbolication related
+06_flutter_bonjour\bonjoour_flutter\app.*.symbols
+
+# Obfuscation related
+06_flutter_bonjour\bonjoour_flutter\app.*.map.json
+
