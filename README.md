@@ -16,3 +16,9 @@ Reprise de la PWA développée au TP2 avec l'ajout de capacitor pour accéder à
 
 ## TP5
 Une TODO List simple en React Native
+
+## TP 6
+Une appli "Carte de visite" en Flutter pour tester le langage
+
+## TP 7
+Une appli convertisseur Euro-Dollar-Livre Sterling en Flutter
