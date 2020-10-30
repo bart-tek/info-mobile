@@ -31,7 +31,8 @@ Gradle/**
 
 # Flutter/Dart/Pub related
 06_flutter_bonjour\bonjoour_flutter\**/doc/api/
-06_flutter_bonjour\bonjoour_flutter\**/ios/Flutter/.last_build_id
+06_flutter_bonjour\bonjoour_flutter\android\**
+06_flutter_bonjour\bonjoour_flutter\ios\**
 06_flutter_bonjour\bonjoour_flutter\.dart_tool/
 06_flutter_bonjour\bonjoour_flutter\.flutter-plugins
 06_flutter_bonjour\bonjoour_flutter\.flutter-plugins-dependencies
