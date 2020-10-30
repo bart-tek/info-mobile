@@ -15,7 +15,8 @@ export default class App extends React.Component {
     // il y aura probalement d'autres informations à stocker
     state = {
         texteSaisie: '',
-        actions: ['test2']
+        actions: [],
+        filtre: 'Toutes'
     }
 
     /**
@@ -25,31 +26,61 @@ export default class App extends React.Component {
      */
     quandLaSaisieChange(nouvelleSaisie) {
         this.state.texteSaisie = nouvelleSaisie;
-        console.log('la saisie à changée', nouvelleSaisie)
     }
 
     /**
      * Méthode invoquée lors du clic sur le bouton `Valider`.
      */
     validerNouvelleAction() {
+        
+        if (this.state.actions.map((action) => {return action.title} ).includes(this.state.texteSaisie)) {
+            console.log("Une action avec ce nom existe déjà !")
+        }
+        else {
+            this.setState({ 
+                actions: this.state.actions.concat({ 
+                    title: this.state.texteSaisie, 
+                    isTerminated: false 
+                }) 
+            })
+        }
+    }
+
+    terminerAction = (action) => {
+
+        var index = this.state.actions.indexOf(action);
+
+        if (this.state.actions[index].isTerminated) {
+            this.state.actions[index].isTerminated = false;
+        } else {
+            this.state.actions[index].isTerminated = true;
+        }
+        this.setState(this.state.actions);
+    }
+
+    supprimerAction = (action) => {
         this.setState(this.state.actions, () => {
-            this.state.actions.push(this.state.texteSaisie);
+            var index = this.state.actions.indexOf(action);
+            this.state.actions.splice(index, 1);
         });
-        console.log('Vous avez cliqué sur Valider !')
+    }
+
+    updateFilter = (newFilter) => {
+        this.setState({ filtre: newFilter });
     }
 
     render() {
-        const {texteSaisie, actions} = this.state
+        const {texteSaisie, actions, filtre} = this.state
 
         return (
             <View style={styles.conteneur}>
                 <ScrollView keyboardShouldPersistTaps='always' style={styles.content}>
                     <Entete/>
                     <Saisie texteSaisie={texteSaisie} evtTexteModifie={(titre) => this.quandLaSaisieChange(titre)}/>
-                    <ListeActions actions={actions}/>
+                    <ListeActions actions={actions} filtre={filtre} onTerminer={this.terminerAction} onSupprimer={this.supprimerAction}/>
                     <BoutonCreer onValider={() => this.validerNouvelleAction()}/>
                 </ScrollView>
-                <Menu/>
+                <Menu updateFilter={this.updateFilter} />
             </View>
         )
     }

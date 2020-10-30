@@ -13,23 +13,36 @@ import {StyleSheet, Text, TouchableHighlight} from 'react-native'
  * TODO 3. Si le nom du bouton est 'Supprimer', alors appliquer le style 'supprimer' à l'élément <Text>
  *
  */
-const BoutonAction = ({nom}) => {
+const BoutonAction = ({nom, isTerminated, onTerminer, onSupprimer}) => {
     
     const buttonStyle = () => {
         if (nom == "Terminer") {
-            return styles.termine
+            if (isTerminated == true) {
+                return styles.termine;
+            }
+            else {
+                return styles.texte;
+            }
         }
         else if (nom == "Supprimer") {
             return styles.supprimer
         }
     }
 
-    
+    const buttonAction = () => {
+        if (nom == "Terminer") {
+            return onTerminer;
+        }
+        else if (nom == "Supprimer") {
+            return onSupprimer;
+        }
+    }
 
     return(
         <TouchableHighlight
             underlayColor='#efefef'
-            style={styles.bouton}>
+            style={styles.bouton}
+            onPress={buttonAction()}>
             <Text style={buttonStyle()}>
                 {nom}
             </Text>
