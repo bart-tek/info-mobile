@@ -43,6 +43,9 @@ class BoutonContactezMoi extends StatelessWidget {
                 content: Text('Je suis joignable à l\'IMT Atlantique'),
               );
             }),
-        child: Text("Contactez-moi !"));
+        child: Text("Contactez-moi !"),
+        style: ButtonStyle(
+            backgroundColor:
+                MaterialStateProperty.all<Color>(Color(0xFFb74093))));
   }
 }

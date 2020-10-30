@@ -8,21 +8,21 @@ Gradle/**
 04-capacitor/electron
 
 # Miscellaneous
-06_flutter_bonjour\bonjoour_flutter\*.class
-06_flutter_bonjour\bonjoour_flutter\*.log
-06_flutter_bonjour\bonjoour_flutter\*.pyc
-06_flutter_bonjour\bonjoour_flutter\*.swp
-06_flutter_bonjour\bonjoour_flutter\.DS_Store
-06_flutter_bonjour\bonjoour_flutter\.atom/
-06_flutter_bonjour\bonjoour_flutter\.buildlog/
-06_flutter_bonjour\bonjoour_flutter\.history
-06_flutter_bonjour\bonjoour_flutter\.svn/
+06_flutter_bonjour\bonjour_flutter\*.class
+06_flutter_bonjour\bonjour_flutter\*.log
+06_flutter_bonjour\bonjour_flutter\*.pyc
+06_flutter_bonjour\bonjour_flutter\*.swp
+06_flutter_bonjour\bonjour_flutter\.DS_Store
+06_flutter_bonjour\bonjour_flutter\.atom/
+06_flutter_bonjour\bonjour_flutter\.buildlog/
+06_flutter_bonjour\bonjour_flutter\.history
+06_flutter_bonjour\bonjour_flutter\.svn/
 
 # IntelliJ related
-06_flutter_bonjour\bonjoour_flutter\*.iml
-06_flutter_bonjour\bonjoour_flutter\*.ipr
-06_flutter_bonjour\bonjoour_flutter\*.iws
-06_flutter_bonjour\bonjoour_flutter\.idea/
+06_flutter_bonjour\bonjour_flutter\*.iml
+06_flutter_bonjour\bonjour_flutter\*.ipr
+06_flutter_bonjour\bonjour_flutter\*.iws
+06_flutter_bonjour\bonjour_flutter\.idea/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -30,23 +30,65 @@ Gradle/**
 #.vscode/
 
 # Flutter/Dart/Pub related
-06_flutter_bonjour\bonjoour_flutter\**/doc/api/
-06_flutter_bonjour\bonjoour_flutter\android\**
-06_flutter_bonjour\bonjoour_flutter\ios\**
-06_flutter_bonjour\bonjoour_flutter\.dart_tool/
-06_flutter_bonjour\bonjoour_flutter\.flutter-plugins
-06_flutter_bonjour\bonjoour_flutter\.flutter-plugins-dependencies
-06_flutter_bonjour\bonjoour_flutter\.packages
-06_flutter_bonjour\bonjoour_flutter\.pub-cache/
-06_flutter_bonjour\bonjoour_flutter\.pub/
-06_flutter_bonjour\bonjoour_flutter\/build/
+06_flutter_bonjour\bonjour_flutter\**/doc/api/
+06_flutter_bonjour\bonjour_flutter\android\**
+06_flutter_bonjour\bonjour_flutter\ios\**
+06_flutter_bonjour\bonjour_flutter\.dart_tool/
+06_flutter_bonjour\bonjour_flutter\.flutter-plugins
+06_flutter_bonjour\bonjour_flutter\.flutter-plugins-dependencies
+06_flutter_bonjour\bonjour_flutter\.packages
+06_flutter_bonjour\bonjour_flutter\.pub-cache/
+06_flutter_bonjour\bonjour_flutter\.pub/
+06_flutter_bonjour\bonjour_flutter\/build/
 
 # Web related
-06_flutter_bonjour\bonjoour_flutter\lib/generated_plugin_registrant.dart
+06_flutter_bonjour\bonjour_flutter\lib/generated_plugin_registrant.dart
 
 # Symbolication related
-06_flutter_bonjour\bonjoour_flutter\app.*.symbols
+06_flutter_bonjour\bonjour_flutter\app.*.symbols
 
 # Obfuscation related
-06_flutter_bonjour\bonjoour_flutter\app.*.map.json
+06_flutter_bonjour\bonjour_flutter\app.*.map.json
 
+# Miscellaneous
+07_flutter_convertisseur/convertisseur_devises/*.class
+07_flutter_convertisseur/convertisseur_devises/*.log
+07_flutter_convertisseur/convertisseur_devises/*.pyc
+07_flutter_convertisseur/convertisseur_devises/*.swp
+07_flutter_convertisseur/convertisseur_devises/.DS_Store
+07_flutter_convertisseur/convertisseur_devises/.atom/
+07_flutter_convertisseur/convertisseur_devises/.buildlog/
+07_flutter_convertisseur/convertisseur_devises/.history
+07_flutter_convertisseur/convertisseur_devises/.svn/
+
+# IntelliJ related
+07_flutter_convertisseur/convertisseur_devises/*.iml
+07_flutter_convertisseur/convertisseur_devises/*.ipr
+07_flutter_convertisseur/convertisseur_devises/*.iws
+07_flutter_convertisseur/convertisseur_devises/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+07_flutter_convertisseur/convertisseur_devises/doc/api/
+07_flutter_convertisseur/convertisseur_devises/ios/**
+07_flutter_convertisseur/convertisseur_devises/android/**
+07_flutter_convertisseur/convertisseur_devises/.dart_tool/
+07_flutter_convertisseur/convertisseur_devises/.flutter-plugins
+07_flutter_convertisseur/convertisseur_devises/.flutter-plugins-dependencies
+07_flutter_convertisseur/convertisseur_devises/.packages
+07_flutter_convertisseur/convertisseur_devises/.pub-cache/
+07_flutter_convertisseur/convertisseur_devises/.pub/
+07_flutter_convertisseur/convertisseur_devises//build/
+
+# Web related
+07_flutter_convertisseur/convertisseur_devises/lib/generated_plugin_registrant.dart
+
+# Symbolication related
+07_flutter_convertisseur/convertisseur_devises/app.*.symbols
+
+# Obfuscation related
+07_flutter_convertisseur/convertisseur_devises/app.*.map.json
